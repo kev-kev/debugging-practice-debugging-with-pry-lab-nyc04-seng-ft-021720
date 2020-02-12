@@ -16,7 +16,7 @@ end
 def greet_crew(crew)
   greeting = []
   crew.each {|crew_member| 
-    greeting.push("Hello #{crew_member}")
+    greeting.push("Hello #{crew_member}.")
   }
   greeting
 end
